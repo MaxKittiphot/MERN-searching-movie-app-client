@@ -1,0 +1,51 @@
+body{
+    color: white;
+}
+
+.watchlist-container{
+    margin: 50px auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+.flex-child-list{
+    /* height: 280px; */
+    width: 220px;
+    text-align: center;
+    margin-bottom: 50px;
+    border: 1px solid #121212;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #121212;
+    border-radius: 15px;
+}
+
+.list-title{
+    font-size: 1.2rem;
+    height: 50px;
+}
+
+.flex-child-list > button{
+    border: none;
+    margin: 3px auto;
+    display: block;
+    color: white;
+    background-color: #121212;
+}
+
+.flex-child-list > button:hover{
+    color: #e2b617;
+}
+
+img {
+    border-radius: 10px;
+    width: 150px;
+    height: 220px;
+    object-fit: cover;
+    overflow: hidden;
+}
